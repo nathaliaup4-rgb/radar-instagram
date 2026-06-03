@@ -1,5 +1,5 @@
 'use strict';
-const API_BASE = 'RAILWAY_URL_AQUI';
+const API_BASE = 'https://radar-instagram-production.up.railway.app';
 
 loadAll();
 setInterval(loadAll, 30000);
