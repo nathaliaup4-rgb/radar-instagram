@@ -2,11 +2,18 @@
   "name": "radar-instagram",
   "version": "1.0.0",
   "description": "Radar Instagram - Monitoramento de comentarios Instagram",
+  "main": "backend/server.js",
   "scripts": {
-    "start": "cd backend && node server.js",
-    "install:all": "cd backend && npm install"
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   }
 }
